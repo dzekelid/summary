@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfus
 x-kinRank: "7"
 x-alexaRank: "4970472"
 tags: Summary
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/nfusion-solutions/apis.md
 specificationVersion: "0.14"
 apis:

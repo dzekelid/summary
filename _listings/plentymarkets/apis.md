@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Summary
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-post-openapi.md
+- name: plentymarkets REST-API - Get an order summary by the contact ID
+  x-api-slug: restaccountsorder-summariescontactscontactid-get
+  description: Gets an order summary. The ID of the contact must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summariescontactscontactid-get-openapi.md
+- name: plentymarkets REST-API - Get an order summary by the address ID
+  x-api-slug: restaccountsorder-summariesordersaddressid-get
+  description: Gets an order summary. The ID of the address must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summariesordersaddressid-get-openapi.md
 - name: plentymarkets REST-API - Delete an order summary
   x-api-slug: restaccountsorder-summariesordersummaryid-delete
   description: Deletes an order summary. The ID of the order summary must be specified.
@@ -76,6 +96,60 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-get-openapi.md
+- name: plentymarkets REST-API - List document accounting summaries
+  x-api-slug: restordersdocumentsaccounting-summary-get
+  description: Lists document accounting summaries. A document accounting summary
+    is saved along with each reversal document (for invoice and credit note). It contains
+    accounting information about the order for this point in time. The summary is
+    saved because an order can be updated after a reversal_document is generated.
+    The information about the order before the update is needed for accounting.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restordersdocumentsaccounting-summary-get-openapi.md
+- name: plentymarkets REST-API - List order summaries
+  x-api-slug: restaccountsorder-summaries-get
+  description: List order summaries.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restaccountsorder-summaries-get-openapi.md
+- name: plentymarkets REST-API - List document accounting summaries
+  x-api-slug: restordersdocumentsaccounting-summary-get
+  description: Lists document accounting summaries. A document accounting summary
+    is saved along with each reversal document (for invoice and credit note). It contains
+    accounting information about the order for this point in time. The summary is
+    saved because an order can be updated after a reversal_document is generated.
+    The information about the order before the update is needed for accounting.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restordersdocumentsaccounting-summary-get-openapi.md
+- name: plentymarkets REST-API - List document accounting summaries
+  x-api-slug: restordersdocumentsaccounting-summary-get
+  description: Lists document accounting summaries. A document accounting summary
+    is saved along with each reversal document (for invoice and credit note). It contains
+    accounting information about the order for this point in time. The summary is
+    saved because an order can be updated after a reversal_document is generated.
+    The information about the order before the update is needed for accounting.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/plentymarkets/restordersdocumentsaccounting-summary-get-openapi.md
 - name: plentymarkets REST-API - List order summaries
   x-api-slug: restaccountsorder-summaries-get
   description: List order summaries.

@@ -12,11 +12,81 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Summary
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Twine - Update a plan summary
+  x-api-slug: patient-plan-summaryid-patch
+  description: Update a plan summary record for a patient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summaryid-patch-openapi.md
+- name: Twine - List patient plan summaries
+  x-api-slug: patient-plan-summary-get
+  description: Get a list of patient plan summaries
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summary-get-openapi.md
+- name: Twine - Get the plan summary for a patient
+  x-api-slug: patient-plan-summaryid-get
+  description: Get the plan summary for a patient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summaryid-get-openapi.md
+- name: Twine - List patient plan summaries
+  x-api-slug: patient-plan-summary-get
+  description: Get a list of patient plan summaries
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summary-get-openapi.md
+- name: Twine - Get the plan summary for a patient
+  x-api-slug: patient-plan-summaryid-get
+  description: Get the plan summary for a patient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summaryid-get-openapi.md
+- name: Twine - List patient plan summaries
+  x-api-slug: patient-plan-summary-get
+  description: Get a list of patient plan summaries
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summary-get-openapi.md
+- name: Twine - Get the plan summary for a patient
+  x-api-slug: patient-plan-summaryid-get
+  description: Get the plan summary for a patient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/twine/patient-plan-summaryid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://twilio.api.gallery.streamdata.io

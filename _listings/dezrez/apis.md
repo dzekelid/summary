@@ -7,11 +7,82 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Summary
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Get summary of an account based on invoice amounts
+    allocated
+  x-api-slug: apiaccountidinvoiceoverview-post
+  description: Get summary of an account based on invoice amounts allocated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apiaccountidinvoiceoverview-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a branch
+  x-api-slug: apibrandingbranch-get
+  description: Gets a sumary all of the brands for a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibrandingbranch-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a agency
+  x-api-slug: apibranding-get
+  description: Gets a sumary all of the brands for a agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibranding-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a branch
+  x-api-slug: apibrandingbranch-get
+  description: Gets a sumary all of the brands for a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibrandingbranch-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a agency
+  x-api-slug: apibranding-get
+  description: Gets a sumary all of the brands for a agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibranding-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a agency
+  x-api-slug: apibranding-get
+  description: Gets a sumary all of the brands for a agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibranding-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets a sumary all of the brands for a branch
+  x-api-slug: apibrandingbranch-get
+  description: Gets a sumary all of the brands for a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/dezrez/apibrandingbranch-get-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

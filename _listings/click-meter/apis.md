@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Summary
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
 apis:
@@ -60,6 +60,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/click-meter/aggregatedsummarygroups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/click-meter/aggregatedsummarygroups-get-openapi.md
+- name: Click Meter - Retrieve statistics about a subset of datapoints for a timeframe
+    with datapoints data
+  x-api-slug: groupsidaggregatedsummary-get
+  description: Retrieve statistics about a subset of datapoints for a timeframe with
+    datapoints data.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/summary/master/_listings/click-meter/groupsidaggregatedsummary-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io

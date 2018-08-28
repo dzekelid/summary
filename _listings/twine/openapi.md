@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Twine
 x-complete: 1
@@ -78,4 +77,3 @@ paths:
       - Patient
       - Plan
       - Summaries
----
